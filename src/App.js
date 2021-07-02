@@ -1,21 +1,15 @@
 import React from 'react';
-import Button from './components/button';
-import Board from './components/board';
+import Main from './components/main';
+import Header from './components/header';
+import Footer from './components/footer';
 class App extends React.Component {
   render() {
     return (
       <div>
-
-        <p>
-          Hello World
-        </p>
-        <h3>
-          From ASAC
-        </h3>
-        <Button />
-        <Board />
+        <Header />
+        <Main />
+        <Footer />
       </div>
-
     )
   }
 

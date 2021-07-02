@@ -4,6 +4,8 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
@@ -48,4 +50,10 @@ header {
 
 .frankieImg {
   width: 20rem;
+}
+
+.catCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }

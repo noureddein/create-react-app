@@ -13,7 +13,7 @@ class Parent extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="catCard">
                 <ChildCat imgUrl={CatImg} title={this.state.name[0]} petsNo={3} />
                 <ChildCat imgUrl={CatImg} title={this.state.name[1]} petsNo={3} />
 

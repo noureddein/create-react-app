@@ -1,24 +1,44 @@
 import React from 'react';
-import Button from './components/button';
-import Board from './components/board';
+
+
+// !=====================
+// !===== Class 1 =======
+// !=====================
+
+import Main from './class1-components/main';
+import Header from './class1-components/header';
+import Footer from './class1-components/footer';
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <Header />
+//         <Main />
+//         <Footer />
+//       </div>
+//     )
+//   }
+
+// }
+
+
+
+// !=====================
+// !===== Class 2 =======
+// !=====================
+import Parent from './class2-components/Parent';
+
 class App extends React.Component {
   render() {
     return (
-      <div>
-
-        <p>
-          Hello World
-        </p>
-        <h3>
-          From ASAC
-        </h3>
-        <Button />
-        <Board />
-      </div>
-
+      <Parent />
     )
   }
-
 }
+
+
+
+
 
 export default App;
